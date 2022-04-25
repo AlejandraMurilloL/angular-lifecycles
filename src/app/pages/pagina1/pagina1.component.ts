@@ -9,6 +9,8 @@ import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit,
 export class Pagina1Component implements OnInit, OnChanges, DoCheck, AfterContentInit, 
              AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
 
+  nombre: string = 'Ale';
+
   constructor() { 
     console.log('Constructor');
   }
